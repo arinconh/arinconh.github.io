@@ -1,16 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Alejandra Rincon Hidalgo
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+![Alejandra Rincon Hidalgo](assets/img/IMG_4608.jpEg)
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I am Alejandra Rincon Hidalgo. I am a Data Scientist with a PhD in mathematics working at NETCHECK.
 
-What else do you need?
+[CV as a Data Scientist](assets/img/arinconh_DS.pdf)
 
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+[CV as a Mathematician](assets/img/arinconh_CV.pdf)
