@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Alejandra Rincon Hidalgo
+title: Alejandra Rincon Hidalgo
+subtitle: Data/Scientist 
 ---
 
-![Alejandra Rincon Hidalgo](assets/img/IMG_4608.jpEg)
+![Alejandra Rincon Hidalgo](assets/img/IMG_4608.jpeg)
 
 I am Alejandra Rincon Hidalgo. I am a Data Scientist with a PhD in mathematics working at NETCHECK.
 
