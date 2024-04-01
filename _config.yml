@@ -51,11 +51,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "alrinconh@gmail.com"
+  rss: true
   github: arinconh
   twitter: arinconh
-#  medium: yourname
-#  reddit: yourname
-   linkedin: arinconh
+  linkedin: arinconh
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
