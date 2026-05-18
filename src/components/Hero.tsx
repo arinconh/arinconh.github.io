@@ -14,8 +14,7 @@ export function Hero() {
         >
           <div className="col-span-12 md:col-span-7 space-y-8">
             <p className="text-label uppercase tracking-[0.2em] text-ink-soft text-tabular">
-              <span className="text-accent">01</span>
-              <span className="mx-3 inline-block h-px w-6 align-middle bg-rule" />
+              <span className="text-accent mr-3">01</span>
               {bio.location}
             </p>
             <h1 className="font-serif text-display leading-[0.95] tracking-[-0.02em] text-balance">
@@ -36,8 +35,15 @@ export function Hero() {
                 <span aria-hidden>↓</span>
               </a>
               <a
+                href={bio.cvs.mathematics.href}
+                className="inline-flex items-center gap-2 px-5 py-3 border border-ink text-ink text-sm tracking-wide hover:bg-ink hover:text-paper transition-colors"
+              >
+                {bio.cvs.mathematics.label}
+                <span aria-hidden>↓</span>
+              </a>
+              <a
                 href="#about"
-                className="inline-flex items-center gap-2 px-5 py-3 border border-rule text-sm tracking-wide hover:border-accent hover:text-accent transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-3 text-sm tracking-wide text-ink-soft hover:text-accent transition-colors"
               >
                 Read more
               </a>

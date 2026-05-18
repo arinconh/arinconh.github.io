@@ -10,6 +10,7 @@ export interface Publication {
   venueDetail?: string;
   year: number;
   doi?: string;
+  arxiv?: string;
   url: string;
   abstract?: string;
 }
@@ -20,6 +21,8 @@ export interface Talk {
   venue: string;
   location: string;
   date: string;
+  language?: string;
+  youtubeId?: string;
 }
 
 export interface ExpertiseArea {

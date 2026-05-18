@@ -90,10 +90,10 @@ export function PublicationItem({ index, pub }: Props) {
                   })}
                 </p>
                 {pub.abstract && <p>{pub.abstract}</p>}
-                {pub.doi && (
+                {(pub.doi || pub.arxiv) && (
                   <p>
                     <a href={pub.url} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline text-tabular">
-                      doi:{pub.doi}
+                      {pub.arxiv ? `arXiv:${pub.arxiv}` : `doi:${pub.doi}`}
                     </a>
                   </p>
                 )}

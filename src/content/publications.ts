@@ -32,7 +32,7 @@ export const publications: Publication[] = [
   {
     id: "epidemics-2026",
     title:
-      "Social contact patterns derived from an epidemiological survey and GPS-based co-location data — A systematic comparison using parallel data collections during the COVID-19 pandemic in Germany",
+      "Social contact patterns derived from an epidemiological survey and GPS-based co-location data: a systematic comparison using parallel data collections during the COVID-19 pandemic in Germany",
     authors: [
       "Huynh Thi Phuong",
       "Janik Suer",
@@ -87,15 +87,38 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1101/2025.09.18.25336044",
   },
   {
-    id: "berlin-mobility-2025",
-    title: "Urban Segregation and Daily Human Mobility Patterns in Berlin",
-    authors: ["Alejandra Rincón Hidalgo et al."],
+    id: "leveraging-realtime-gps-2025",
+    title:
+      "Leveraging Real-Time Population-Scale GPS Data to Forecast and Identify Components of Epidemic Dynamics",
+    authors: ["Alejandra Rincón Hidalgo"],
     selfIndex: 0,
     role: "co",
     venue: "International Journal of Infectious Diseases",
-    venueDetail: "Vol. 152, Supplement, March 2025 (conference abstract)",
+    venueDetail: "Vol. 152, Supplement, March 2025",
     year: 2025,
-    url: "https://www.ijidonline.com/issue/S1201-9712(25)X0003-0",
+    url: "https://www.ijidonline.com/",
+    abstract:
+      "Research on contact networks and Bayesian epidemiological forecasting, revealing Delta and Omicron variants to be 50% and 115% more transmissible than Alpha.",
+  },
+  {
+    id: "berlin-mobility-netmob-2024",
+    title: "Urban Segregation and Daily Human Mobility Patterns in Berlin",
+    authors: [
+      "A. Thampi",
+      "M. Zambrano",
+      "Alejandra Rincón Hidalgo",
+      "A. Jarynowski",
+      "V. Belik",
+      "S. Schultz",
+    ],
+    selfIndex: 2,
+    role: "co",
+    venue: "NetMob 2024",
+    venueDetail: "Washington, D.C., October 2024",
+    year: 2024,
+    url: "https://netmob.org/",
+    abstract:
+      "Analysis of mobility patterns and urban segregation using crowdsourced GPS data.",
   },
   {
     id: "k3-surfaces-2024",
@@ -118,14 +141,34 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1016/j.jpaa.2023.107517",
   },
   {
-    id: "bridgeland-triples",
+    id: "bridgeland-moduli-2021",
+    title: "Moduli of Bridgeland semistable holomorphic triples",
+    authors: ["Dominic Bunnett", "Alejandra Rincón-Hidalgo"],
+    selfIndex: 1,
+    role: "co",
+    venue: "arXiv preprint",
+    year: 2021,
+    arxiv: "2102.04995",
+    url: "https://arxiv.org/abs/2102.04995",
+    abstract:
+      "We prove that the moduli stack of Bridgeland semistable holomorphic triples over a curve of genus at least 1, with a fixed numerical class and phase, is an algebraic stack of finite type over C.",
+  },
+  {
+    id: "bridgeland-stability-2019",
     title:
-      "Moduli of Bridgeland Semistable Holomorphic Triples on Curves",
-    authors: ["Alejandra Rincón Hidalgo"],
-    selfIndex: 0,
-    role: "first",
-    venue: "Doctoral thesis / preprint",
+      "Bridgeland stability conditions on the category of holomorphic triples over curves",
+    authors: [
+      "Eva Martínez-Romero",
+      "Alejandra Rincón-Hidalgo",
+      "Arne Rüffer",
+    ],
+    selfIndex: 1,
+    role: "co",
+    venue: "arXiv preprint",
     year: 2019,
-    url: "https://arxiv.org/a/rinconhidalgo_a_1",
+    arxiv: "1905.04240",
+    url: "https://arxiv.org/abs/1905.04240",
+    abstract:
+      "Complete description of the Bridgeland stability manifold for the bounded derived category of holomorphic triples over a smooth projective curve of genus 1 as a connected, four-dimensional complex manifold.",
   },
 ];

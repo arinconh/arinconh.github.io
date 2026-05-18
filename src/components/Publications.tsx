@@ -9,7 +9,6 @@ export function Publications() {
       id="publications"
       index="04"
       label="Selected Publications"
-      title="Six entries — newest first."
     >
       <div className="rule-bottom">
         {sorted.map((p, i) => (

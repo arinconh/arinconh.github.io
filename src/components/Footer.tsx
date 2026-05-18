@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-12 md:col-span-6 space-y-4">
             <p className="font-serif text-h2 leading-tight text-balance">
-              Open to senior Data Science roles.
+              Get in touch.
             </p>
             <p className="text-paper/70 max-w-md">
-              The fastest path is email — I read everything.
+              The fastest path is email. I read everything.
             </p>
             <a
               href={bio.social.email}
@@ -27,6 +27,9 @@ export function Footer() {
             </a>
             <a href={bio.cvs.mathematics.href} className="block hover:text-accent-soft transition-colors">
               Academic ↓
+            </a>
+            <a href="https://www.youtube.com/watch?v=7uHsAajmuuA" target="_blank" rel="noopener noreferrer" className="block hover:text-accent-soft transition-colors">
+              Talks on YouTube ↗
             </a>
           </div>
           <div className="col-span-6 md:col-span-3 space-y-3">
