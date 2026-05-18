@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-paper: #fafaf7;
-  --color-paper-pure: #ffffff;
-  --color-ink: #0a0a0a;
-  --color-ink-soft: #4a4a4a;
-  --color-rule: #e6e4dc;
-  --color-accent: #6b6e45;
-  --color-accent-soft: #8d9061;
+  --color-paper: #f1ece3;
+  --color-paper-pure: #fbf8f1;
+  --color-ink: #1a1410;
+  --color-ink-soft: #4a423b;
+  --color-rule: #e0d9c8;
+  --color-accent: #7b2d26;
+  --color-accent-soft: #a04d44;
 
   --font-serif: "Fraunces Variable", Georgia, serif;
   --font-sans: "Inter Tight Variable", system-ui, sans-serif;

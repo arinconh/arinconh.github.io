@@ -18,6 +18,6 @@ export const bio: Bio = {
   },
   cvs: {
     dataScience: { href: "/Alejandra_Rincon_CV.pdf", label: "CV (Data Science)" },
-    mathematics: { href: "/Academic_CV.pdf", label: "CV (Academic)" },
+    mathematics: { href: "/Academic_CV.pdf", label: "CV (Academia)" },
   },
 };

@@ -26,7 +26,7 @@ export function Footer() {
               Data Science ↓
             </a>
             <a href={bio.cvs.mathematics.href} className="block hover:text-accent-soft transition-colors">
-              Academic ↓
+              Academia ↓
             </a>
             <a href="https://www.youtube.com/watch?v=7uHsAajmuuA" target="_blank" rel="noopener noreferrer" className="block hover:text-accent-soft transition-colors">
               Talks on YouTube ↗
