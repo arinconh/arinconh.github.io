@@ -14,7 +14,7 @@ export function About() {
       >
         <div className="col-span-12 md:col-span-5">
           <p className="font-serif text-h2 leading-[1.1] tracking-[-0.01em] text-balance">
-            Senior Data Scientist working where probabilistic modeling meets production systems.
+            Senior Data Scientist: where probabilistic modeling meets production system.
           </p>
         </div>
         <div className="col-span-12 md:col-span-6 md:col-start-7 space-y-5 text-ink leading-relaxed">
